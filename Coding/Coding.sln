@@ -3,8 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{768224B1-3E6E-488A-8F7E-50AD92ECFFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageMyNotes", "ManageMyNotes\ManageMyNotes.csproj", "{B8D5BE92-0281-4C87-A804-6C6B66064A95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Common", "02.Common", "{52D86C69-5CC1-4A2A-9F64-596AB94B366F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Common", "HRSS.ManageMyNotes.Common\HRSS.ManageMyNotes.Common.csproj", "{4F0D405A-3441-492A-AC13-5B9C6D91A35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Data", "03.Data", "{98456699-E213-4FAC-9523-C506203ABCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Model", "HRSS.ManageMyNotes.Model\HRSS.ManageMyNotes.Model.csproj", "{848CED99-EDD0-4BC0-A82D-F574555F38E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Repository", "HRSS.ManageMyNotes.Repository\HRSS.ManageMyNotes.Repository.csproj", "{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95} = {768224B1-3E6E-488A-8F7E-50AD92ECFFF1}
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D} = {52D86C69-5CC1-4A2A-9F64-596AB94B366F}
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9} = {98456699-E213-4FAC-9523-C506203ABCA4}
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB} = {98456699-E213-4FAC-9523-C506203ABCA4}
 	EndGlobalSection
 EndGlobal

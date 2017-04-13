@@ -1,0 +1,7 @@
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Model.dll
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Model.pdb
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Common.dll
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Common.pdb
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.csprojResolveAssemblyReference.cache
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.dll
+E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.pdb
