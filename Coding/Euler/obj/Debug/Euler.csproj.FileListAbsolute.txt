@@ -1,0 +1,6 @@
+C:\CodingTest\Coding\Euler\bin\Debug\Euler.exe.config
+C:\CodingTest\Coding\Euler\bin\Debug\Euler.exe
+C:\CodingTest\Coding\Euler\bin\Debug\Euler.pdb
+C:\CodingTest\Coding\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+C:\CodingTest\Coding\Euler\obj\Debug\Euler.exe
+C:\CodingTest\Coding\Euler\obj\Debug\Euler.pdb
