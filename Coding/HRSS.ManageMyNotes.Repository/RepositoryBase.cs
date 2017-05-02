@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +18,11 @@ namespace HRSS.ManageMyNotes.Repository
             return context.SaveChanges();
         }
 
+        public IEnumerable<TEntity> GetAllFiltered(Expression<Func<TEntity, bool>> criteria)
+        {
+            return context.Set<TEntity>().Where(criteria).ToList();
+        }
+
         public void Dispose()
         {
             context.Dispose();
@@ -25,5 +31,6 @@ namespace HRSS.ManageMyNotes.Repository
     public interface IRepository<TEntity, TDbContext>:IDisposable
     {
         int Add(TEntity entity);
+        IEnumerable<TEntity> GetAllFiltered(Expression<Func<TEntity,bool>> criteria);
     }
 }

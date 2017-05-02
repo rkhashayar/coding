@@ -31,6 +31,12 @@ namespace ManageMyNotes.Controllers
             }
             
         }
+
+        [HttpGet]
+        public JsonResult Search(string columnName, string criteria )
+        {
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
