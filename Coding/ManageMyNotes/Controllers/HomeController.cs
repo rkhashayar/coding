@@ -32,10 +32,10 @@ namespace ManageMyNotes.Controllers
             
         }
 
-        [HttpGet]
-        public JsonResult Search(string columnName, string criteria )
-        {
-        }
+        //[HttpGet]
+        //public JsonResult Search(string columnName, string criteria )
+        //{
+        //}
 
         public ActionResult About()
         {

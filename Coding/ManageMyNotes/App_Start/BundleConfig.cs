@@ -10,7 +10,8 @@ namespace ManageMyNotes
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery")
                 .Include("~/Scripts/jquery-{version}.js")
-                .Include("~/Scripts/jquery.unobtrusive-ajax.js"));
+                .Include("~/Scripts/jquery.unobtrusive-ajax.js")
+                .Include("~/Scripts/euler_project.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

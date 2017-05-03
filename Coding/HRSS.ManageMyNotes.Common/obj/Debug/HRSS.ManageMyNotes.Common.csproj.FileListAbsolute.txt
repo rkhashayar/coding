@@ -3,3 +3,8 @@ E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Common\bin\Debug\HRSS.ManageMyNotes
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.csprojResolveAssemblyReference.cache
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.dll
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Common\bin\Debug\HRSS.ManageMyNotes.Common.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Common\bin\Debug\HRSS.ManageMyNotes.Common.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.csprojResolveAssemblyReference.cache
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Common\obj\Debug\HRSS.ManageMyNotes.Common.pdb

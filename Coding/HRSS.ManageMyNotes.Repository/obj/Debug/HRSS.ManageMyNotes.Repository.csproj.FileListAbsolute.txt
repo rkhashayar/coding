@@ -12,3 +12,17 @@ E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\EntityFramewor
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.csprojResolveAssemblyReference.cache
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.dll
 E:\Projects\Coding\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Repository.dll.config
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Repository.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Repository.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\EntityFramework.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Common.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Model.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Common.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\HRSS.ManageMyNotes.Model.pdb
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\EntityFramework.xml
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.csprojResolveAssemblyReference.cache
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.dll
+C:\CodingTest\Coding\HRSS.ManageMyNotes.Repository\obj\Debug\HRSS.ManageMyNotes.Repository.pdb
