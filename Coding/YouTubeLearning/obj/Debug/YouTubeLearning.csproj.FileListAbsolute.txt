@@ -1,0 +1,6 @@
+E:\Projects\Coding\Coding\YouTubeLearning\bin\Debug\YouTubeLearning.exe.config
+E:\Projects\Coding\Coding\YouTubeLearning\bin\Debug\YouTubeLearning.exe
+E:\Projects\Coding\Coding\YouTubeLearning\bin\Debug\YouTubeLearning.pdb
+E:\Projects\Coding\Coding\YouTubeLearning\obj\Debug\YouTubeLearning.csprojResolveAssemblyReference.cache
+E:\Projects\Coding\Coding\YouTubeLearning\obj\Debug\YouTubeLearning.exe
+E:\Projects\Coding\Coding\YouTubeLearning\obj\Debug\YouTubeLearning.pdb
