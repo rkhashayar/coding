@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{768224B1-3E6E-488A-8F7E-50AD92ECFFF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageMyNotes", "ManageMyNotes\ManageMyNotes.csproj", "{B8D5BE92-0281-4C87-A804-6C6B66064A95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Common", "02.Common", "{52D86C69-5CC1-4A2A-9F64-596AB94B366F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Common", "HRSS.ManageMyNotes.Common\HRSS.ManageMyNotes.Common.csproj", "{4F0D405A-3441-492A-AC13-5B9C6D91A35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Data", "03.Data", "{98456699-E213-4FAC-9523-C506203ABCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Model", "HRSS.ManageMyNotes.Model\HRSS.ManageMyNotes.Model.csproj", "{848CED99-EDD0-4BC0-A82D-F574555F38E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSS.ManageMyNotes.Repository", "HRSS.ManageMyNotes.Repository\HRSS.ManageMyNotes.Repository.csproj", "{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler", "Euler\Euler.csproj", "{CA3FF770-B772-4886-BA51-ED4B90E90F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeLearning", "YouTubeLearning\YouTubeLearning.csproj", "{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.CSharp7InANutshell", "04.CSharp7InANutshell", "{3ED2E2A9-1A62-4868-B62E-6EFF4A88336B}"
+	ProjectSection(SolutionItems) = preProject
+		C7SharpInANutshell\ChapterOneNotes.txt = C7SharpInANutshell\ChapterOneNotes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpVersionsFeatures", "CSharp7NewFeatures\CSharpVersionsFeatures.csproj", "{4C05D957-7ADF-48E5-86C7-4E441258411A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3FF770-B772-4886-BA51-ED4B90E90F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3FF770-B772-4886-BA51-ED4B90E90F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3FF770-B772-4886-BA51-ED4B90E90F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3FF770-B772-4886-BA51-ED4B90E90F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C05D957-7ADF-48E5-86C7-4E441258411A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C05D957-7ADF-48E5-86C7-4E441258411A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C05D957-7ADF-48E5-86C7-4E441258411A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C05D957-7ADF-48E5-86C7-4E441258411A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8D5BE92-0281-4C87-A804-6C6B66064A95} = {768224B1-3E6E-488A-8F7E-50AD92ECFFF1}
+		{4F0D405A-3441-492A-AC13-5B9C6D91A35D} = {52D86C69-5CC1-4A2A-9F64-596AB94B366F}
+		{848CED99-EDD0-4BC0-A82D-F574555F38E9} = {98456699-E213-4FAC-9523-C506203ABCA4}
+		{0FDB71CC-EE45-4F09-BE10-C8A63DF457CB} = {98456699-E213-4FAC-9523-C506203ABCA4}
+		{CA3FF770-B772-4886-BA51-ED4B90E90F51} = {768224B1-3E6E-488A-8F7E-50AD92ECFFF1}
+		{F74A18A3-155A-4F0E-B04F-DBDFA95AD4BA} = {768224B1-3E6E-488A-8F7E-50AD92ECFFF1}
+		{4C05D957-7ADF-48E5-86C7-4E441258411A} = {3ED2E2A9-1A62-4868-B62E-6EFF4A88336B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E906B12-92ED-40C3-A1E0-82C81A92941E}
+	EndGlobalSection
+EndGlobal

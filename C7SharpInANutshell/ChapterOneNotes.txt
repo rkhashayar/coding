@@ -1,0 +1,6 @@
+Encapsulation: to set boarders arround objects to hide the internal details from the public 
+All types in C# share the same basic functionality like ToString is applicable to all 
+Interfaces: useful when we wanna have contracts and have multiple inheritance
+Properties: function members that keep the state 
+Events: function members that make it easy to act on a change in the state
+Managed languages are compiled into managed code which is presented in IL which is going to be used by CLR and compiled into native code it is called JIT compilation.
