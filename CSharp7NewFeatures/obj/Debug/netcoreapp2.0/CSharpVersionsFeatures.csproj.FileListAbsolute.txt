@@ -1,0 +1,9 @@
+C:\Projects\coding\CSharp7NewFeatures\bin\Debug\netcoreapp2.0\CSharpVersionsFeatures.deps.json
+C:\Projects\coding\CSharp7NewFeatures\bin\Debug\netcoreapp2.0\CSharpVersionsFeatures.dll
+C:\Projects\coding\CSharp7NewFeatures\bin\Debug\netcoreapp2.0\CSharpVersionsFeatures.pdb
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.csprojAssemblyReference.cache
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.csproj.CoreCompileInputs.cache
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.AssemblyInfoInputs.cache
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.AssemblyInfo.cs
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.dll
+C:\Projects\coding\CSharp7NewFeatures\obj\Debug\netcoreapp2.0\CSharpVersionsFeatures.pdb

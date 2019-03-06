@@ -12,3 +12,12 @@ C:\CodingTest\Coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Commo
 C:\CodingTest\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.csprojResolveAssemblyReference.cache
 C:\CodingTest\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.dll
 C:\CodingTest\Coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.pdb
+C:\Projects\coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Model.dll
+C:\Projects\coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Model.pdb
+C:\Projects\coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Common.dll
+C:\Projects\coding\HRSS.ManageMyNotes.Model\bin\Debug\HRSS.ManageMyNotes.Common.pdb
+C:\Projects\coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.csprojAssemblyReference.cache
+C:\Projects\coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.csproj.CoreCompileInputs.cache
+C:\Projects\coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.csproj.CopyComplete
+C:\Projects\coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.dll
+C:\Projects\coding\HRSS.ManageMyNotes.Model\obj\Debug\HRSS.ManageMyNotes.Model.pdb

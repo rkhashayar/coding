@@ -1,0 +1,9 @@
+C:\Projects\coding\Chapter3\bin\Debug\netcoreapp2.1\Chapter3.deps.json
+C:\Projects\coding\Chapter3\bin\Debug\netcoreapp2.1\Chapter3.dll
+C:\Projects\coding\Chapter3\bin\Debug\netcoreapp2.1\Chapter3.pdb
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.csproj.CoreCompileInputs.cache
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.AssemblyInfoInputs.cache
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.AssemblyInfo.cs
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.dll
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.pdb
+C:\Projects\coding\Chapter3\obj\Debug\netcoreapp2.1\Chapter3.csprojAssemblyReference.cache
