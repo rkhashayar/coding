@@ -4,7 +4,8 @@ namespace CSharpVersionsFeatures
 {
     public class CSharp7
     {
-        public static void MoreReadableFeatures() {
+        public static void MoreReadableFeatures()
+        {
             // usage of _ to make it more readable for numerics 
             int moreReadableNumber = 1_000_00;
             // can use 0b for binary values
@@ -33,6 +34,61 @@ namespace CSharpVersionsFeatures
             if (isInteger)
             {
                 Console.WriteLine(integerAsInteger * 10);
+            }
+        }
+        #endregion
+
+        #region using switch case
+        public static void TestSwitchCase()
+        {
+            object[] arrayOfObjects = new object[] { 1, "string1", 1.01d, new { Name = "my name" } };
+            foreach (var obj in arrayOfObjects)
+            {
+                Console.WriteLine(obj.GetType());
+                switch (obj)
+                {
+                    case int a when a == 1:
+                        Console.WriteLine($"my value is {obj}");
+                        break;
+                    case string a when a == "string1":
+                        Console.WriteLine($"my value is {obj}");
+                        break;
+                    case double a when a == 1.01d:
+                        Console.WriteLine($"my value is {obj}");
+                        break;
+                    default:
+                        Console.WriteLine("type unknown");
+                        break;
+                }
+            }
+
+        }
+        #endregion
+
+        #region using gagged array
+        public static void TestGaggedArray()
+        {
+            int[][] gaggedArray = new int[5][];
+            for (int i = 0; i < 5; i++)
+            {
+                gaggedArray[i] = new int[i % 5];
+            }
+
+            for (int i = 0; i < gaggedArray.Length; i++)
+            {
+                for (int j = 0; j < (gaggedArray[i].Length); j++)
+                {
+                    gaggedArray[i][j] = j;
+                }
+            }
+
+            for (int i = 0; i < gaggedArray.Length; i++)
+            {
+                for (int j = 0; j < (gaggedArray[i].Length); j++)
+                {
+                    Console.Write($"{gaggedArray[i][j]} ");
+                }
+                Console.WriteLine();
             }
         }
         #endregion

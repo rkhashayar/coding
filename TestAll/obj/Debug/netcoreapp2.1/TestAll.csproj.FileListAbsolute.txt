@@ -1,0 +1,14 @@
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\TestAll.deps.json
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\TestAll.runtimeconfig.json
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\TestAll.runtimeconfig.dev.json
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\TestAll.dll
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\TestAll.pdb
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\CSharpVersionsFeatures.dll
+C:\Projects\coding\TestAll\bin\Debug\netcoreapp2.1\CSharpVersionsFeatures.pdb
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.csprojAssemblyReference.cache
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.csproj.CoreCompileInputs.cache
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.AssemblyInfoInputs.cache
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.AssemblyInfo.cs
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.csproj.CopyComplete
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.dll
+C:\Projects\coding\TestAll\obj\Debug\netcoreapp2.1\TestAll.pdb

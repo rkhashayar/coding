@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Chapter1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter1.dll": {}
+        }
+      },
+      "Chapter2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter2.dll": {}
+        }
+      },
+      "Chapter3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter3.dll": {}
+        }
+      },
+      "Chapter4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Chapter1/1.0.0": {
+      "type": "project",
+      "path": "../Chapter1/Chapter1.csproj",
+      "msbuildProject": "../Chapter1/Chapter1.csproj"
+    },
+    "Chapter2/1.0.0": {
+      "type": "project",
+      "path": "../Chapter2/Chapter2.csproj",
+      "msbuildProject": "../Chapter2/Chapter2.csproj"
+    },
+    "Chapter3/1.0.0": {
+      "type": "project",
+      "path": "../Chapter3/Chapter3.csproj",
+      "msbuildProject": "../Chapter3/Chapter3.csproj"
+    },
+    "Chapter4/1.0.0": {
+      "type": "project",
+      "path": "../Chapter4/Chapter4.csproj",
+      "msbuildProject": "../Chapter4/Chapter4.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "Chapter1 >= 1.0.0",
+      "Chapter2 >= 1.0.0",
+      "Chapter3 >= 1.0.0",
+      "Chapter4 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KHASHAYAR\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Projects\\coding\\Runner\\Runner.csproj",
+      "projectName": "Runner",
+      "projectPath": "F:\\Projects\\coding\\Runner\\Runner.csproj",
+      "packagesPath": "C:\\Users\\KHASHAYAR\\.nuget\\packages\\",
+      "outputPath": "F:\\Projects\\coding\\Runner\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KHASHAYAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {
+            "F:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
+              "projectPath": "F:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
+            },
+            "F:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
+              "projectPath": "F:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
+            },
+            "F:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
+              "projectPath": "F:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
+            },
+            "F:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
+              "projectPath": "F:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
