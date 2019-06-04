@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v2.2": []
   },
   "packageFolders": {
-    "C:\\Users\\Khashayar\\.nuget\\packages\\": {},
+    "C:\\Users\\kash\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\coding\\PlayGroundConsoleApp\\PlayGroundConsoleApp.csproj",
+      "projectUniqueName": "C:\\Projects\\coding\\PlayGroundConsoleApp\\PlayGroundConsoleApp.csproj",
       "projectName": "PlayGroundConsoleApp",
-      "projectPath": "D:\\Projects\\coding\\PlayGroundConsoleApp\\PlayGroundConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\Khashayar\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\coding\\PlayGroundConsoleApp\\obj\\",
+      "projectPath": "C:\\Projects\\coding\\PlayGroundConsoleApp\\PlayGroundConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\coding\\PlayGroundConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Khashayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
