@@ -247,15 +247,36 @@
         "runtime": {
           "bin/placeholder/Chapter4.dll": {}
         }
+      },
+      "Chapter5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter5.dll": {}
+        }
+      },
+      "Chapter6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter6.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "Microsoft.NETCore.App/2.1.0": {
-      "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "sha512": "JNHhG+j5eIhG26+H721IDmwswGUznTwwSuJMFe/08h0X2YarHvA15sVAvUkA/2Sp3W0ENNm48t+J7KTPRqEpfA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
@@ -517,10 +538,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.1.0": {
-      "sha512": "f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "sha512": "vMn8V3GOp/SPOG2oE8WxswzAWZ/GZmc8EPiB3vc2EZ6us14ehXhsvUFXndYopGNSjCa9OdqC6L6xStF1KyUZnw==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -530,10 +552,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
-      "sha512": "p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "sha512": "vBUwNihtLUVS2HhO6WocYfAktRmfFihm6JB8/sJ53caVW+AelvbnYpfiGzaZDpkWjN6vA3xzOKPu9Vu8Zz3p8Q==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -543,10 +566,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
-      "sha512": "fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "sha512": "o0PRql5qOHFEY3d1WvzE+T7cMFKtOsWLMg8L1oTeGNnI4u5AzOj8o6AdZT3y2GxFA1DAx7AQ9qZjpCO2/bgZRw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -556,10 +580,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -572,10 +597,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/2.1.0": {
-      "sha512": "etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "sha512": "x188gIZXOwFXkPXyGavEcPGcR6RGvjFOES2QzskN4gERZjWPN34qhRsZVMC0CLJfQLGSButarcgWxPPM4vmg0w==",
       "type": "package",
       "path": "microsoft.netcore.targets/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -734,6 +760,16 @@
       "type": "project",
       "path": "../Chapter4/Chapter4.csproj",
       "msbuildProject": "../Chapter4/Chapter4.csproj"
+    },
+    "Chapter5/1.0.0": {
+      "type": "project",
+      "path": "../Chapter5/Chapter5.csproj",
+      "msbuildProject": "../Chapter5/Chapter5.csproj"
+    },
+    "Chapter6/1.0.0": {
+      "type": "project",
+      "path": "../Chapter6/Chapter6.csproj",
+      "msbuildProject": "../Chapter6/Chapter6.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -742,28 +778,33 @@
       "Chapter2 >= 1.0.0",
       "Chapter3 >= 1.0.0",
       "Chapter4 >= 1.0.0",
+      "Chapter5 >= 1.0.0",
+      "Chapter6 >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kash\\.nuget\\packages\\": {},
+    "C:\\Users\\Khashayar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\coding\\Runner\\Runner.csproj",
+      "projectUniqueName": "D:\\Projects\\coding\\Runner\\Runner.csproj",
       "projectName": "Runner",
-      "projectPath": "C:\\Projects\\coding\\Runner\\Runner.csproj",
-      "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\coding\\Runner\\obj\\",
+      "projectPath": "D:\\Projects\\coding\\Runner\\Runner.csproj",
+      "packagesPath": "C:\\Users\\Khashayar\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\coding\\Runner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Khashayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -775,17 +816,23 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
+            "D:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
             },
-            "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
+            "D:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
             },
-            "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
+            "D:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
             },
-            "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
+            "D:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
+            },
+            "D:\\Projects\\coding\\Chapter5\\Chapter5.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter5\\Chapter5.csproj"
+            },
+            "D:\\Projects\\coding\\Chapter6\\Chapter6.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter6\\Chapter6.csproj"
             }
           }
         }
@@ -800,7 +847,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

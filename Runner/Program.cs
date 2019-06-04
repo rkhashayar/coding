@@ -1,5 +1,6 @@
 ﻿using Chapter3;
 using Chapter4;
+using Chapter6;
 using System;
 
 namespace Runner
@@ -19,7 +20,11 @@ namespace Runner
             //TestDecorator.Test();
 
             // test factory
-            TestFactory.Test();
+            //TestFactory.Test();
+
+            //test command
+            TestRemoteControl.Test();
+
             Console.ReadLine();
         }
     }

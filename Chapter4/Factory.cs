@@ -19,6 +19,12 @@ namespace Chapter4
 
     public class CheesePizza : IPizza
     {
+        // use of abstract factory
+        IPizzaIngredientFactory _pizzaIngredientFactory;
+        public CheesePizza(IPizzaIngredientFactory pizzaIngredientFactory)
+        {
+            _pizzaIngredientFactory = pizzaIngredientFactory;
+        }
         public void Bake()
         {
             Console.WriteLine("baking cheese pizza");
@@ -36,12 +42,18 @@ namespace Chapter4
 
         public void Prepare()
         {
+            _pizzaIngredientFactory.GetCheese();
             Console.WriteLine("preparing cheese pizza");
         }
     }
 
     public class PeperroniPizza : IPizza
     {
+        IPizzaIngredientFactory _pizzaIngredientFactory;
+        public PeperroniPizza(IPizzaIngredientFactory pizzaIngredientFactory)
+        {
+            _pizzaIngredientFactory = pizzaIngredientFactory;
+        }
         public void Bake()
         {
             Console.WriteLine("baking Peperroni pizza");
@@ -59,6 +71,8 @@ namespace Chapter4
 
         public void Prepare()
         {
+            _pizzaIngredientFactory.GetPepperoni();
+            _pizzaIngredientFactory.GetCheese();
             Console.WriteLine("preparing Peperroni pizza");
         }
     }
@@ -108,9 +122,9 @@ namespace Chapter4
             switch (pizzaType)
             {
                 case PizzaType.Cheese:
-                    return new CheesePizza();
+                    return new CheesePizza(new NYPizzaIngredient());
                 case PizzaType.Pepperoni:
-                    return new PeperroniPizza();
+                    return new PeperroniPizza(new NYPizzaIngredient());
                 case PizzaType.Vegi:
                     return new VegiPizza();
                 default:

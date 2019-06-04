@@ -11,7 +11,9 @@
           "Chapter1": "1.0.0",
           "Chapter2": "1.0.0",
           "Chapter3": "1.0.0",
-          "Chapter4": "1.0.0"
+          "Chapter4": "1.0.0",
+          "Chapter5": "1.0.0",
+          "Chapter6": "1.0.0"
         },
         "runtime": {
           "Runner.dll": {}
@@ -35,6 +37,16 @@
       "Chapter4/1.0.0": {
         "runtime": {
           "Chapter4.dll": {}
+        }
+      },
+      "Chapter5/1.0.0": {
+        "runtime": {
+          "Chapter5.dll": {}
+        }
+      },
+      "Chapter6/1.0.0": {
+        "runtime": {
+          "Chapter6.dll": {}
         }
       }
     }
@@ -61,6 +73,16 @@
       "sha512": ""
     },
     "Chapter4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter6/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

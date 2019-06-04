@@ -1,0 +1,9 @@
+F:\Projects\coding\Chapter6\bin\Debug\netcoreapp2.1\Chapter6.deps.json
+F:\Projects\coding\Chapter6\bin\Debug\netcoreapp2.1\Chapter6.dll
+F:\Projects\coding\Chapter6\bin\Debug\netcoreapp2.1\Chapter6.pdb
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.csprojAssemblyReference.cache
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.csproj.CoreCompileInputs.cache
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.AssemblyInfoInputs.cache
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.AssemblyInfo.cs
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.dll
+F:\Projects\coding\Chapter6\obj\Debug\netcoreapp2.1\Chapter6.pdb
