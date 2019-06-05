@@ -154,10 +154,13 @@ namespace Chapter10
             _hasQuarterState,
             _soldState;
         private int _gumballsCount = 0;
+        private IGumballState _state;
         public GumballMachine(int gumballsCount)
         {
             _gumballsCount = gumballsCount;
-
+            _hasQuarterState = new HasQuartersState(this);
+            _noQuartersState = new NoQuartersState(this);
+            _
         }
 
         public int GetCount()
