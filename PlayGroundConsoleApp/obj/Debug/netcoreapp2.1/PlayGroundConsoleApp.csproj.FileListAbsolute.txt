@@ -1,0 +1,11 @@
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.csprojAssemblyReference.cache
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.csproj.CoreCompileInputs.cache
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.AssemblyInfoInputs.cache
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.AssemblyInfo.cs
+C:\Projects\coding\PlayGroundConsoleApp\bin\Debug\netcoreapp2.1\PlayGroundConsoleApp.deps.json
+C:\Projects\coding\PlayGroundConsoleApp\bin\Debug\netcoreapp2.1\PlayGroundConsoleApp.runtimeconfig.json
+C:\Projects\coding\PlayGroundConsoleApp\bin\Debug\netcoreapp2.1\PlayGroundConsoleApp.runtimeconfig.dev.json
+C:\Projects\coding\PlayGroundConsoleApp\bin\Debug\netcoreapp2.1\PlayGroundConsoleApp.dll
+C:\Projects\coding\PlayGroundConsoleApp\bin\Debug\netcoreapp2.1\PlayGroundConsoleApp.pdb
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.dll
+C:\Projects\coding\PlayGroundConsoleApp\obj\Debug\netcoreapp2.1\PlayGroundConsoleApp.pdb
