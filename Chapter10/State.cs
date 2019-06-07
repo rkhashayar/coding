@@ -110,13 +110,7 @@ namespace Chapter10
         }
         public void Dispense()
         {
-            if (_gumballMachine.ReleaseGumball() == 0)
-            {
-                Console.WriteLine("Oops out of gumbulls.");
-                _gumballMachine.SetState(_gumballMachine.GetSoldOutState());
-                return;
-            }
-            _gumballMachine.SetState(_gumballMachine.GetNoQuarterState());
+            Console.WriteLine("this doesn't fit in.");
         }
 
         public void EjectQuarters()
@@ -160,7 +154,10 @@ namespace Chapter10
             _gumballsCount = gumballsCount;
             _hasQuarterState = new HasQuartersState(this);
             _noQuartersState = new NoQuartersState(this);
-            _
+            _soldOutState = new SoldOutState(this);
+            _soldState = new SoldState(this);
+            if (_gumballsCount > 0)
+                _state = _noQuartersState;
         }
 
         public int GetCount()
@@ -168,6 +165,19 @@ namespace Chapter10
             return _gumballsCount;
         }
 
+        public void InsertQuarter()
+        {
+            _state.InsertQuarters();
+        }
+        public void EjectQuarter()
+        {
+            _state.EjectQuarters();
+        }
+        public void TurnCrank()
+        {
+            _state.TurnCrank();
+            _state.Dispense();
+        }
         public IGumballState GetHasQuarterState()
         {
             throw new NotImplementedException();
@@ -200,7 +210,7 @@ namespace Chapter10
 
         public void SetState(IGumballState gumballState)
         {
-            throw new NotImplementedException();
+            _state = gumballState;
         }
     }
 }
