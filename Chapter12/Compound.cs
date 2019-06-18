@@ -32,7 +32,31 @@ namespace Chapter12
     {
         public void Quack()
         {
-            Console.WriteLine("Squeak");
+            Console.WriteLine("this is rubber duck said Squeak");
+        }
+    }
+
+    public interface ISimulator
+    {
+        void Simulate();
+    }
+
+    public class DuckSimulator : ISimulator
+    {
+        public void Simulate()
+        {
+            IQuackable mallardDuck = new MallardDuck();
+            IQuackable redHeadDuck = new RedHeadDuck();
+            IQuackable rubberDuck = new RubberDuck();
+            IQuackable duckCall = new CallDuck();
+            Simulate(mallardDuck);
+            Simulate(redHeadDuck);
+            Simulate(rubberDuck);
+            Simulate(duckCall);
+        }
+        public void Simulate(IQuackable quackable)
+        {
+            quackable.Quack();
         }
     }
 }
