@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\coding\\TestAll\\TestAll.csproj": {}
+    "C:\\Projects\\coding\\TestAll\\TestAll.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj": {
+    "C:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj",
+        "projectUniqueName": "C:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj",
         "projectName": "CSharpVersionsFeatures",
-        "projectPath": "D:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj",
-        "packagesPath": "C:\\Users\\Khashayar\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\coding\\CSharp7NewFeatures\\obj\\",
+        "projectPath": "C:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj",
+        "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\coding\\CSharp7NewFeatures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Khashayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -58,21 +58,21 @@
         }
       }
     },
-    "D:\\Projects\\coding\\TestAll\\TestAll.csproj": {
+    "C:\\Projects\\coding\\TestAll\\TestAll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\coding\\TestAll\\TestAll.csproj",
+        "projectUniqueName": "C:\\Projects\\coding\\TestAll\\TestAll.csproj",
         "projectName": "TestAll",
-        "projectPath": "D:\\Projects\\coding\\TestAll\\TestAll.csproj",
-        "packagesPath": "C:\\Users\\Khashayar\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\coding\\TestAll\\obj\\",
+        "projectPath": "C:\\Projects\\coding\\TestAll\\TestAll.csproj",
+        "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\coding\\TestAll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Khashayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -86,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj": {
-                "projectPath": "D:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj"
+              "C:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj": {
+                "projectPath": "C:\\Projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj"
               }
             }
           }
