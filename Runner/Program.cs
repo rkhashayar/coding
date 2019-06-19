@@ -25,7 +25,7 @@ namespace Runner
 
             //test command
             //TestRemoteControl.Test();
-            new DuckSimulator().Simulate();
+            new DuckSimulator(new CountableDuckQuackFactory()).Simulate();
 
             Console.ReadLine();
         }

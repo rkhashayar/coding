@@ -68,3 +68,9 @@ D:\Projects\coding\Runner\obj\Debug\netcoreapp2.1\Runner.AssemblyInfo.cs
 D:\Projects\coding\Runner\obj\Debug\netcoreapp2.1\Runner.csproj.CopyComplete
 D:\Projects\coding\Runner\obj\Debug\netcoreapp2.1\Runner.dll
 D:\Projects\coding\Runner\obj\Debug\netcoreapp2.1\Runner.pdb
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter12.dll
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter5.dll
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter6.dll
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter12.pdb
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter5.pdb
+C:\Projects\coding\Runner\bin\Debug\netcoreapp2.1\Chapter6.pdb

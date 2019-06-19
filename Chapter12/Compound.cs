@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Chapter12
 {
@@ -43,12 +44,18 @@ namespace Chapter12
 
     public class DuckSimulator : ISimulator
     {
+        private AbstractDuckFacotry _abstarctDuckFactory;
+        public DuckSimulator(AbstractDuckFacotry abstractDuckFacotry)
+        {
+            _abstarctDuckFactory = abstractDuckFacotry;
+        }
         public void Simulate()
         {
-            IQuackable mallardDuck = new MallardDuck();
-            IQuackable redHeadDuck = new RedHeadDuck();
-            IQuackable rubberDuck = new RubberDuck();
-            IQuackable duckCall = new CallDuck();
+            // use the abstract factory instead of having the instantiations
+            IQuackable mallardDuck = _abstarctDuckFactory.CreateMallardDuck(); // new MallardDuck();
+            IQuackable redHeadDuck = _abstarctDuckFactory.CreateRedHedDuck(); // new RedHeadDuck();
+            IQuackable rubberDuck = _abstarctDuckFactory.CreateRubberDuck(); // new RubberDuck();
+            IQuackable duckCall = _abstarctDuckFactory.CreateDuckCall(); // new CallDuck();
             // using quack adapter
             IQuackable goose = new DuckAdaptor(new Goose());
             Simulate(mallardDuck);
@@ -63,6 +70,19 @@ namespace Chapter12
             Simulate(countableMallardDuck);
             Simulate(countableRedDuck);
             Console.WriteLine($"number of quacks = {QuackCounterDecorator.GetQuackCount()}");
+
+            DuckComposite flockOfDucks = new DuckComposite();
+            flockOfDucks.AddDucks(mallardDuck);
+            flockOfDucks.AddDucks(redHeadDuck);
+            flockOfDucks.AddDucks(rubberDuck);
+            flockOfDucks.AddDucks(duckCall);
+            DuckComposite flockOfMallards = new DuckComposite();
+            flockOfMallards.AddDucks(mallardDuck);
+            flockOfMallards.AddDucks(mallardDuck);
+            flockOfMallards.AddDucks(mallardDuck);
+            flockOfMallards.AddDucks(mallardDuck);
+            flockOfDucks.AddDucks(flockOfMallards);
+            Simulate(flockOfDucks);
         }
         public void Simulate(IQuackable quackable)
         {
@@ -112,6 +132,76 @@ namespace Chapter12
         public static int GetQuackCount()
         {
             return _quackCount;
+        }
+    }
+    // use abstract factory to be able to remove instantiation 
+    public abstract class AbstractDuckFacotry
+    {
+        public abstract IQuackable CreateMallardDuck();
+        public abstract IQuackable CreateRedHedDuck();
+        public abstract IQuackable CreateDuckCall();
+        public abstract IQuackable CreateRubberDuck();
+    }
+    public class DuckFactory : AbstractDuckFacotry
+    {
+        public override IQuackable CreateDuckCall()
+        {
+            return new CallDuck();
+        }
+
+        public override IQuackable CreateMallardDuck()
+        {
+            return new MallardDuck();
+        }
+
+        public override IQuackable CreateRedHedDuck()
+        {
+            return new RedHeadDuck();
+        }
+
+        public override IQuackable CreateRubberDuck()
+        {
+            return new RubberDuck();
+        }
+    }
+
+    public class CountableDuckQuackFactory : AbstractDuckFacotry
+    {
+        public override IQuackable CreateDuckCall()
+        {
+            return new QuackCounterDecorator(new CallDuck());
+        }
+
+        public override IQuackable CreateMallardDuck()
+        {
+            return new QuackCounterDecorator(new MallardDuck());
+        }
+
+        public override IQuackable CreateRedHedDuck()
+        {
+            return new QuackCounterDecorator(new RedHeadDuck());
+        }
+
+        public override IQuackable CreateRubberDuck()
+        {
+            return new QuackCounterDecorator(new RubberDuck());
+        }
+    }
+    // composite pattern is going to make is easier for managing multiple ducks
+    public class DuckComposite : IQuackable
+    {
+        List<IQuackable> _quackables;
+        public DuckComposite()
+        {
+            _quackables = new List<IQuackable>();
+        }
+        public void AddDucks(IQuackable quackable)
+        {
+            _quackables.Add(quackable);
+        }
+        public void Quack()
+        {
+            _quackables.ForEach(_ => _.Quack());
         }
     }
 }

@@ -7,3 +7,12 @@ D:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.AssemblyInfoInput
 D:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.AssemblyInfo.cs
 D:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.dll
 D:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.pdb
+C:\Projects\coding\Chapter12\bin\Debug\netcoreapp2.1\Chapter12.deps.json
+C:\Projects\coding\Chapter12\bin\Debug\netcoreapp2.1\Chapter12.dll
+C:\Projects\coding\Chapter12\bin\Debug\netcoreapp2.1\Chapter12.pdb
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.csprojAssemblyReference.cache
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.csproj.CoreCompileInputs.cache
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.AssemblyInfoInputs.cache
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.AssemblyInfo.cs
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.dll
+C:\Projects\coding\Chapter12\obj\Debug\netcoreapp2.1\Chapter12.pdb
