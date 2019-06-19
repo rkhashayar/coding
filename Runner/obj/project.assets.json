@@ -218,6 +218,16 @@
           "bin/placeholder/Chapter1.dll": {}
         }
       },
+      "Chapter12/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Chapter12.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter12.dll": {}
+        }
+      },
       "Chapter2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -746,6 +756,11 @@
       "path": "../Chapter1/Chapter1.csproj",
       "msbuildProject": "../Chapter1/Chapter1.csproj"
     },
+    "Chapter12/1.0.0": {
+      "type": "project",
+      "path": "../Chapter12/Chapter12.csproj",
+      "msbuildProject": "../Chapter12/Chapter12.csproj"
+    },
     "Chapter2/1.0.0": {
       "type": "project",
       "path": "../Chapter2/Chapter2.csproj",
@@ -775,6 +790,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Chapter1 >= 1.0.0",
+      "Chapter12 >= 1.0.0",
       "Chapter2 >= 1.0.0",
       "Chapter3 >= 1.0.0",
       "Chapter4 >= 1.0.0",
@@ -784,25 +800,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kash\\.nuget\\packages\\": {},
+    "C:\\Users\\Khashayar\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\coding\\Runner\\Runner.csproj",
+      "projectUniqueName": "D:\\Projects\\coding\\Runner\\Runner.csproj",
       "projectName": "Runner",
-      "projectPath": "C:\\Projects\\coding\\Runner\\Runner.csproj",
-      "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\coding\\Runner\\obj\\",
+      "projectPath": "D:\\Projects\\coding\\Runner\\Runner.csproj",
+      "packagesPath": "C:\\Users\\Khashayar\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\coding\\Runner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Khashayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -816,23 +832,26 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
+            "D:\\Projects\\coding\\Chapter12\\Chapter12.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter12\\Chapter12.csproj"
             },
-            "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
+            "D:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
             },
-            "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
+            "D:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
             },
-            "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
+            "D:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
             },
-            "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj"
+            "D:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
             },
-            "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj": {
-              "projectPath": "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj"
+            "D:\\Projects\\coding\\Chapter5\\Chapter5.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter5\\Chapter5.csproj"
+            },
+            "D:\\Projects\\coding\\Chapter6\\Chapter6.csproj": {
+              "projectPath": "D:\\Projects\\coding\\Chapter6\\Chapter6.csproj"
             }
           }
         }

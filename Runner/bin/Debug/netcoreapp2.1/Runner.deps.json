@@ -9,6 +9,7 @@
       "Runner/1.0.0": {
         "dependencies": {
           "Chapter1": "1.0.0",
+          "Chapter12": "1.0.0",
           "Chapter2": "1.0.0",
           "Chapter3": "1.0.0",
           "Chapter4": "1.0.0",
@@ -22,6 +23,11 @@
       "Chapter1/1.0.0": {
         "runtime": {
           "Chapter1.dll": {}
+        }
+      },
+      "Chapter12/1.0.0": {
+        "runtime": {
+          "Chapter12.dll": {}
         }
       },
       "Chapter2/1.0.0": {
@@ -58,6 +64,11 @@
       "sha512": ""
     },
     "Chapter1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter12/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

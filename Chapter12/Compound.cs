@@ -49,12 +49,20 @@ namespace Chapter12
             IQuackable redHeadDuck = new RedHeadDuck();
             IQuackable rubberDuck = new RubberDuck();
             IQuackable duckCall = new CallDuck();
+            // using quack adapter
             IQuackable goose = new DuckAdaptor(new Goose());
             Simulate(mallardDuck);
             Simulate(redHeadDuck);
             Simulate(rubberDuck);
             Simulate(duckCall);
             Simulate(goose);
+            // using quack decorator
+            IQuackable countableRedDuck = new QuackCounterDecorator(new RedHeadDuck());
+            Simulate(countableRedDuck);
+            IQuackable countableMallardDuck = new QuackCounterDecorator(new MallardDuck());
+            Simulate(countableMallardDuck);
+            Simulate(countableRedDuck);
+            Console.WriteLine($"number of quacks = {QuackCounterDecorator.GetQuackCount()}");
         }
         public void Simulate(IQuackable quackable)
         {
@@ -85,6 +93,25 @@ namespace Chapter12
         public void Quack()
         {
             _honker.Honk();
+        }
+    }
+    // counter pattern to add a behavior to duck
+    public class QuackCounterDecorator : IQuackable
+    {
+        private IQuackable _quackable;
+        private static int _quackCount = 0;
+        public QuackCounterDecorator(IQuackable quackable)
+        {
+            _quackable = quackable;
+        }
+        public void Quack()
+        {
+            _quackable.Quack();
+            _quackCount++;
+        }
+        public static int GetQuackCount()
+        {
+            return _quackCount;
         }
     }
 }

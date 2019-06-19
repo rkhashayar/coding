@@ -1,4 +1,5 @@
-﻿using Chapter3;
+﻿using Chapter12;
+using Chapter3;
 using Chapter4;
 using Chapter6;
 using System;
@@ -23,7 +24,8 @@ namespace Runner
             //TestFactory.Test();
 
             //test command
-            TestRemoteControl.Test();
+            //TestRemoteControl.Test();
+            new DuckSimulator().Simulate();
 
             Console.ReadLine();
         }
