@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Chapter12
 {
     // compound patterns
-    public interface IQuackable
+    public interface IQuackable : IQuackableObservable
     {
         void Quack();
     }
@@ -202,6 +202,45 @@ namespace Chapter12
         public void Quack()
         {
             _quackables.ForEach(_ => _.Quack());
+        }
+    }
+    // observer pattern to monitor individual ducks
+    public interface IQuackableObservable
+    {
+        void RegisterObserver(IQuackObserver quackObserver);
+        void NotifyObservers();
+    }
+
+    public class QuackableObservable : IQuackableObservable
+    {
+        private List<IQuackObserver> _quackObservers;
+        private IQuackable _duck;
+        public QuackableObservable(IQuackable duck)
+        {
+            _duck = duck;
+            _quackObservers = new List<IQuackObserver>();
+        }
+
+        public void NotifyObservers()
+        {
+            _quackObservers.ForEach(_=>_.Update());
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _quackObservers.Add(quackObserver);
+        }
+    }
+
+    public interface IQuackObserver
+    {
+        void Update();
+    }
+    public class Quackologist : IQuackObserver
+    {
+        public void Update()
+        {
+            Console.WriteLine("we got a quack!");
         }
     }
 }
