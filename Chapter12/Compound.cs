@@ -4,37 +4,102 @@ using System.Collections.Generic;
 namespace Chapter12
 {
     // compound patterns
-    public interface IQuackable : IQuackableObservable
+    public interface IQuackable : IQuackObservable
     {
         void Quack();
     }
     public class RedHeadDuck : IQuackable
     {
+        private IQuackObservable _observable;
+        public RedHeadDuck()
+        {
+            _observable = new QuackObservable(this);
+        }
+        public void NotifyObservers()
+        {
+            _observable.NotifyObservers();
+        }
+
         public void Quack()
         {
             Console.WriteLine("Red Head Quacked");
+            NotifyObservers();
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _observable.RegisterObserver(quackObserver);
         }
     }
     public class MallardDuck : IQuackable
     {
+        private QuackObservable _observerable;
+        public MallardDuck()
+        {
+            _observerable = new QuackObservable(this);
+        }
+        public void NotifyObservers()
+        {
+            _observerable.NotifyObservers();
+        }
+
         public void Quack()
         {
             Console.WriteLine("Mallard Duck Quacked");
+            NotifyObservers();
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _observerable.RegisterObserver(quackObserver);
         }
     }
     public class CallDuck : IQuackable
     {
+        private QuackObservable _observerable;
+        public CallDuck()
+        {
+            _observerable = new QuackObservable(this);
+        }
+        public void NotifyObservers()
+        {
+            _observerable.NotifyObservers();
+        }
+
         public void Quack()
         {
             Console.WriteLine("this is not a real duck.");
+            NotifyObservers();
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _observerable.RegisterObserver(quackObserver);
         }
     }
     public class RubberDuck : IQuackable
     {
+        private QuackObservable _observerable;
+        public RubberDuck()
+        {
+            _observerable = new QuackObservable(this);
+        }
+        public void NotifyObservers()
+        {
+            _observerable.NotifyObservers();
+        }
+
         public void Quack()
         {
-            Console.WriteLine("this is rubber duck said Squeak");
+            Console.WriteLine("rubber duck squeak");
+            NotifyObservers();
         }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _observerable.RegisterObserver(quackObserver);
+        }
+
     }
 
     public interface ISimulator
@@ -105,14 +170,28 @@ namespace Chapter12
     // adaptor pattern to be able to make use of quackable for goose
     public class DuckAdaptor : IQuackable
     {
+        private QuackObservable _observable;
         IHonker _honker;
         public DuckAdaptor(IHonker honker)
         {
             _honker = honker;
+            _observable = new QuackObservable(this);
         }
+
+        public void NotifyObservers()
+        {
+            _observable.NotifyObservers();
+        }
+
         public void Quack()
         {
             _honker.Honk();
+            NotifyObservers();
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _observable.RegisterObserver(quackObserver);
         }
     }
     // counter pattern to add a behavior to duck
@@ -132,6 +211,16 @@ namespace Chapter12
         public static int GetQuackCount()
         {
             return _quackCount;
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _quackable.RegisterObserver(quackObserver);
+        }
+
+        public void NotifyObservers()
+        {
+            _quackable.NotifyObservers();
         }
     }
     // use abstract factory to be able to remove instantiation 
@@ -199,23 +288,40 @@ namespace Chapter12
         {
             _quackables.Add(quackable);
         }
+
+        public void NotifyObservers()
+        {            
+        }
+
         public void Quack()
         {
-            _quackables.ForEach(_ => _.Quack());
+            _quackables.ForEach(_ => { _.Quack();});
+        }
+
+        public void RegisterObserver(IQuackObserver quackObserver)
+        {
+            _quackables.ForEach(_=> { _.RegisterObserver(quackObserver); });
         }
     }
+
+    #region OBSERVER
     // observer pattern to monitor individual ducks
-    public interface IQuackableObservable
+    public interface IQuackObservable
     {
         void RegisterObserver(IQuackObserver quackObserver);
         void NotifyObservers();
     }
 
-    public class QuackableObservable : IQuackableObservable
+    public interface IQuackObserver
+    {
+        void Update();
+    }
+
+    public class QuackObservable : IQuackObservable
     {
         private List<IQuackObserver> _quackObservers;
         private IQuackable _duck;
-        public QuackableObservable(IQuackable duck)
+        public QuackObservable(IQuackable duck)
         {
             _duck = duck;
             _quackObservers = new List<IQuackObserver>();
@@ -223,7 +329,7 @@ namespace Chapter12
 
         public void NotifyObservers()
         {
-            _quackObservers.ForEach(_=>_.Update());
+            _quackObservers.ForEach(_ => _.Update());
         }
 
         public void RegisterObserver(IQuackObserver quackObserver)
@@ -232,10 +338,7 @@ namespace Chapter12
         }
     }
 
-    public interface IQuackObserver
-    {
-        void Update();
-    }
+    
     public class Quackologist : IQuackObserver
     {
         public void Update()
@@ -243,4 +346,6 @@ namespace Chapter12
             Console.WriteLine("we got a quack!");
         }
     }
+    #endregion
+
 }
