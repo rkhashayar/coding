@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hbU0VIGrhAItePMlV1bIShTvW7PsY1LbJ80+eV2dxqGP85mm05Lv83yngKZl8yuAOAi2gApY13OhTsPf/OsBhw==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\coding\\CSharp7NewFeatures\\CSharpVersionsFeatures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kash\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

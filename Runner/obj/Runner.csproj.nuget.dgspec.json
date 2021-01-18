@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\coding\\Runner\\Runner.csproj": {}
+    "C:\\projects\\coding\\Runner\\Runner.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\coding\\Chapter12\\Chapter12.csproj": {
+    "C:\\projects\\coding\\Chapter12\\Chapter12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter12\\Chapter12.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter12\\Chapter12.csproj",
         "projectName": "Chapter12",
-        "projectPath": "C:\\Projects\\coding\\Chapter12\\Chapter12.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter12\\Chapter12.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter12\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter12\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -32,6 +27,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -43,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -61,27 +58,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
+    "C:\\projects\\coding\\Chapter1\\Chapter1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter1\\Chapter1.csproj",
         "projectName": "Chapter1",
-        "projectPath": "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter1\\Chapter1.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter1\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -93,6 +85,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -104,6 +97,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -122,27 +116,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
+    "C:\\projects\\coding\\Chapter2\\Chapter2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter2\\Chapter2.csproj",
         "projectName": "Chapter2",
-        "projectPath": "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter2\\Chapter2.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter2\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -154,6 +143,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -165,6 +155,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -183,27 +174,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
+    "C:\\projects\\coding\\Chapter3\\Chapter3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter3\\Chapter3.csproj",
         "projectName": "Chapter3",
-        "projectPath": "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter3\\Chapter3.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter3\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -215,6 +201,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -226,6 +213,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -244,27 +232,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
+    "C:\\projects\\coding\\Chapter4\\Chapter4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter4\\Chapter4.csproj",
         "projectName": "Chapter4",
-        "projectPath": "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter4\\Chapter4.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter4\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter4\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -276,6 +259,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -287,6 +271,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -305,27 +290,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj": {
+    "C:\\projects\\coding\\Chapter5\\Chapter5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter5\\Chapter5.csproj",
         "projectName": "Chapter5",
-        "projectPath": "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter5\\Chapter5.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter5\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter5\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -337,6 +317,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -348,6 +329,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -366,27 +348,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj": {
+    "C:\\projects\\coding\\Chapter6\\Chapter6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Chapter6\\Chapter6.csproj",
         "projectName": "Chapter6",
-        "projectPath": "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj",
+        "projectPath": "C:\\projects\\coding\\Chapter6\\Chapter6.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Chapter6\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Chapter6\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -398,6 +375,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -409,6 +387,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -427,27 +406,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\coding\\Runner\\Runner.csproj": {
+    "C:\\projects\\coding\\Runner\\Runner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\coding\\Runner\\Runner.csproj",
+        "projectUniqueName": "C:\\projects\\coding\\Runner\\Runner.csproj",
         "projectName": "Runner",
-        "projectPath": "C:\\Projects\\coding\\Runner\\Runner.csproj",
+        "projectPath": "C:\\projects\\coding\\Runner\\Runner.csproj",
         "packagesPath": "C:\\Users\\kash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\coding\\Runner\\obj\\",
+        "outputPath": "C:\\projects\\coding\\Runner\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\kash\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -459,27 +433,28 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Projects\\coding\\Chapter12\\Chapter12.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter12\\Chapter12.csproj"
+              "C:\\projects\\coding\\Chapter12\\Chapter12.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter12\\Chapter12.csproj"
               },
-              "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter1\\Chapter1.csproj"
+              "C:\\projects\\coding\\Chapter1\\Chapter1.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter1\\Chapter1.csproj"
               },
-              "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter2\\Chapter2.csproj"
+              "C:\\projects\\coding\\Chapter2\\Chapter2.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter2\\Chapter2.csproj"
               },
-              "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter3\\Chapter3.csproj"
+              "C:\\projects\\coding\\Chapter3\\Chapter3.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter3\\Chapter3.csproj"
               },
-              "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter4\\Chapter4.csproj"
+              "C:\\projects\\coding\\Chapter4\\Chapter4.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter4\\Chapter4.csproj"
               },
-              "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter5\\Chapter5.csproj"
+              "C:\\projects\\coding\\Chapter5\\Chapter5.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter5\\Chapter5.csproj"
               },
-              "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj": {
-                "projectPath": "C:\\Projects\\coding\\Chapter6\\Chapter6.csproj"
+              "C:\\projects\\coding\\Chapter6\\Chapter6.csproj": {
+                "projectPath": "C:\\projects\\coding\\Chapter6\\Chapter6.csproj"
               }
             }
           }
@@ -492,6 +467,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -510,7 +486,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
