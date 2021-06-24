@@ -1,0 +1,9 @@
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.AssemblyInfoInputs.cache
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.AssemblyInfo.cs
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.csproj.CoreCompileInputs.cache
+C:\projects\coding\DataStructures\MyArray\bin\Debug\netstandard2.0\MyArray.deps.json
+C:\projects\coding\DataStructures\MyArray\bin\Debug\netstandard2.0\MyArray.dll
+C:\projects\coding\DataStructures\MyArray\bin\Debug\netstandard2.0\MyArray.pdb
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.csprojAssemblyReference.cache
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.dll
+C:\projects\coding\DataStructures\MyArray\obj\Debug\netstandard2.0\MyArray.pdb

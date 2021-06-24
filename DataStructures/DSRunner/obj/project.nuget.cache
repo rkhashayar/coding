@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UA6Jj8hwr2k6+inrI6lZ6q2iXAuFPRgUWuk3PfSZsVAB1wLQ1uQ6JFsL4O0/YycxKinMbGNCweH/nZ++Wf5r3A==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\coding\\DataStructures\\DSRunner\\DSRunner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kash\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

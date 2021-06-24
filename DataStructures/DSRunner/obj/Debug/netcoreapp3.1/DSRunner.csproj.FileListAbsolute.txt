@@ -1,0 +1,13 @@
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.exe
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.deps.json
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.runtimeconfig.json
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.runtimeconfig.dev.json
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.dll
+C:\projects\coding\DataStructures\DSRunner\bin\Debug\netcoreapp3.1\DSRunner.pdb
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.csprojAssemblyReference.cache
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.AssemblyInfoInputs.cache
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.AssemblyInfo.cs
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.csproj.CoreCompileInputs.cache
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.dll
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.pdb
+C:\projects\coding\DataStructures\DSRunner\obj\Debug\netcoreapp3.1\DSRunner.genruntimeconfig.cache
